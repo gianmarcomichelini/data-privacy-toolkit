@@ -1,0 +1,23 @@
+# General Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project Data
+# Ignore all files in data/ but keep the folder itself (using .gitkeep)
+data/*
+!data/.gitkeep
