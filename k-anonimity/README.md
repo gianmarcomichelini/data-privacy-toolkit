@@ -4,17 +4,6 @@ An implementation of the Mondrian multidimensional k-anonymity algorithm for tab
 
 The project is designed for educational and academic use, closely following standard formulations of the Mondrian algorithm presented in university lectures on data privacy.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Dataset](#dataset)
-- [Algorithm Description](#algorithm-description)
-- [Generalization Hierarchies](#generalization-hierarchies)
-- [Usage](#usage)
-- [Output](#output)
-- [Notes and Limitations](#notes-and-limitations)
-
 ## Overview
 
 This project demonstrates how to achieve **k-anonymity** on tabular datasets containing sensitive information. K-anonymity ensures that each individual in a dataset cannot be distinguished from at least k-1 other individuals based on quasi-identifiers (QIs), protecting against re-identification attacks while preserving data utility for analysis.
